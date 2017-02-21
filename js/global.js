@@ -20,3 +20,16 @@ var matrixFilm = new Trailer('The Matrix','vKQi3bBA1y8');
 var inceptionFilm = new Trailer('Inception','YoHD9XEInc0');
 var limitlessFilm = new Trailer('Limitless','jOLqNOfzus4');
 var takenFilm = new Trailer('Taken','kZ02_Uzf7So');
+
+$(document).ready(function(){
+    $("body,button").sparkle({
+  color: "#FFFFFF",
+  count: 30,
+  overlap: 0,
+  speed: 10,
+  minSize: 4,
+  maxSize: 7,
+  direction: "both"
+    });
+})
+
